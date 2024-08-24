@@ -1,5 +1,6 @@
-package converter;
+package de.ulschmid.home.automation.converter;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
 
@@ -16,7 +17,11 @@ public class SerialPortReaderTest {
         SerialPortReader reader = new SerialPortReader();
         JSONObject jsonObject = reader.parseLine(testData);
         // Überprüfe das Ergebnis
-        assertEquals("N95", jsonObject.get("phonetype"));
+        try {
+            assertEquals("N95", jsonObject.get("phonetype"));
         assertEquals("WP", jsonObject.get("cat"));
+    } catch (JSONException e) {
+        throw new RuntimeException(e);
+    }
     }
 }
