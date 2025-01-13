@@ -58,6 +58,12 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
+        <dependency>
+            <groupId>com.pi4j</groupId>
+            <artifactId>pi4j-core</artifactId>
+            <version>V2.7.0</version>
+        </dependency>
+        
 
     </dependencies>
 
