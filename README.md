@@ -16,7 +16,7 @@ Für die Home-Automation möchte ich ein Monitoring und eine zentrale Steuerung 
 Gleichzeitig möchte ich sämtliche Geräte via analogen Schalter(gpio-Chips) steuern.(dezentral) Falls die zentrale Steuerung ausfällt, bleibt so die Steuerbarkeit und Status jederzeit der Status der Komponenten erhalten.
 
 Dazu werden folgende Komponenten und Libraries vorgeschlagen:
-1. 
+1. Zentrales Userinterface, Dashboards, Steuerung: Home Automation?
 
 
 Dieser Webserver enthält einen Webserver, der theoretisch via einem deployable Service gehostet werden und angesprochen werden kann.:
