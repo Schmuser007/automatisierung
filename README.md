@@ -11,4 +11,9 @@ Starten: mvnw spring-boot:run
 Frameworks:
 SpringBoot Starter
 
+Zweck:
+Ermöglicht das Auslesen von String-kodierten-JSON-Signalen in digitale JSON-Strukturen.
+
+TODO:
+GPIO to String Converter?
 
